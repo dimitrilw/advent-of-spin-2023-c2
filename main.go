@@ -40,6 +40,7 @@ func init() {
 
 		p := Payload{ max_kids(d) }
 
+		w.WriteHeader(http.StatusOK)
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(p)
 	})
