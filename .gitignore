@@ -1,0 +1,5 @@
+target/
+.spin/
+
+# lib, not binary; so ignore lockfile
+Cargo.lock

@@ -1,0 +1,16 @@
+[package]
+name = "aos-chal-two"
+authors = ["Dimitri <5898931+dimitrilw@users.noreply.github.com>"]
+description = "Fermyon advent-of-spin 2023, challenge 2"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = [ "cdylib" ]
+
+[dependencies]
+anyhow = "1"
+http = "0.2"
+spin-sdk = { git = "https://github.com/fermyon/spin", tag = "v2.0.1" }
+
+[workspace]
