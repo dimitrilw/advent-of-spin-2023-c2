@@ -100,5 +100,5 @@ test: test-go test-hurl
 submit:
     hurl \
     --error-format long \
-    --variable serviceUrl="https://aos-chal-one-wgedpbqc.fermyon.app/" \
+    --variable serviceUrl="https://aos-chal-two-ls0rs9tr.fermyon.app/" \
     submit.hurl
