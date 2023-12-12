@@ -54,6 +54,7 @@ func max_kids(d Data) int {
 	sort.Sort(d)
 
 	for i := 0; i < d.Len(); i++ {
+		if d.Capacity == 0 { break }
 		if d.Weight[i] <= d.Capacity {
 			d.Capacity -= d.Weight[i]
 			res += d.Kids[i]
